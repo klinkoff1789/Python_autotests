@@ -22,3 +22,4 @@ def merge_list(li_1, li_2):
 
 
 print(merge_list(li_1, li_2))
+
