@@ -1,3 +1,17 @@
 {
-    "python.pythonPath": "C:\\Users\\ML\\miniconda3\\python.exe"
+    "python.pythonPath": "C:\\Users\\ML\\miniconda3\\python.exe",
+    "cSpell.words": [
+        "msedgedriver"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./POM",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.promptToConfigure": false
 }

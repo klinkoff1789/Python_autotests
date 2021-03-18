@@ -3,7 +3,9 @@ import sys
 import time
 import unittest
 
-import HtmlTestRunner
+import HtmlTestRunner.HTMLTestRunner
+
+# import HTMLTestRunner
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 from dotenv.main import load_dotenv
@@ -70,7 +72,7 @@ class LoginTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(
-        testRunner=HtmlTestRunner.HTMLTestRunner(
+        testRunner=HTMLTestRunner.HTMLTestRunner(
             output="G:\\Python_autotests\\POM\\TestReports"
         )
     )

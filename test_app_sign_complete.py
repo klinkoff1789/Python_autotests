@@ -2,7 +2,9 @@ import os
 import sys
 import time
 import unittest
-import HtmlTestRunner
+
+# import HTMLTestRunner
+import HtmlTestRunner.HTMLTestRunner
 
 # sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.append(os.path.join(os.path.dirname(__file__), "..", ".."))
@@ -99,7 +101,7 @@ class LoginTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(
-        testRunner=HtmlTestRunner.HTMLTestRunner(
-            output="G:\\Python_autotests\\POM\\TestReports"
+        testRunner=HtmlTestRunner.HTMLTestRunner.HTMLTestRunner(
+            # output="G:\\Python_autotests\\POM\\TestReports"
         )
     )
